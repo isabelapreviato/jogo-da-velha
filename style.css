@@ -1,14 +1,33 @@
 body {
     margin: 0;
-    padding: 1;
+    padding: 0;
     background-color: rgb(151, 195, 216);
     font-family: 'Shadows Into Light', cursive;
+}
+
+html, body {height:100%;}
+
+
+
+footer {
+        position:absolute;
+        bottom:0;
+        width:100%;
+    
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 30px;
+}
+
+h1 {
+    margin-top: 12px;
 }
 
 header {
     display: flex;
     align-items: center;
-    border-top: solid 10px black;  
+    border-top: solid 15px black;  
     background-color: aquamarine;
 
 }
@@ -43,11 +62,14 @@ span {
         width: 100%;
         margin-right: 30%;
         margin-left: 30%;
-        margin-top: 4%;
+        margin-top: 2%;
+         
 }
 
 button:hover {
     cursor: pointer;
+    background-color: aquamarine;
+    color: black;
 }
 
 .options {
@@ -115,4 +137,9 @@ button:hover {
   padding: 20px;
   font-size: 30px;
   text-align: center;
+
+}
+
+.gridd:hover {
+    cursor: pointer;
 }
